@@ -20,7 +20,7 @@ from utils.rot9D_to3 import convert_to3d
 from visualization.renderer import get_renderer, create_gif
 # from evaluation.evalution_metric import motion_div, pos_frechet, vel_frechet
 from evaluation.metric2 import calculate_metrics
-from configs.configs import config
+from configs.configs_test import config
 
 video_list, motion_dir, music_dir, ignore_list, sequence_list, MF_CACHE_DIR, test_batch_size, smpl_model_path = \
     config.video_list, config.motion_dir, config.test_music_dir, config.ignore_list, config.sequence_list, config.test_cache_dir, \
