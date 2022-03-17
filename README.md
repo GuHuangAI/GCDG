@@ -15,5 +15,6 @@ For training:
 sh run_cmtr.sh
 
 For testing:
+Firstly, u should download the [wav.zip](), and use './utils/ext_audio_features_raw.py' to extract the cache features. And run:
 sh run_test2.sh
 </code></pre>
