@@ -31,3 +31,6 @@ sh run_cmtr.sh
 For testing:
 sh run_test2.sh
 </code></pre>
+
+## Q&A
+If u have any questions, please concat with huangyuhang@shu.edu.cn.
