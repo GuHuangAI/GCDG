@@ -525,10 +525,10 @@ def save_checkpoint(network, state, is_best, checkpointdir, epoch=None):
 def main():
     args = parser.parse_args()
     if args.network == 'Dancerevolution_2Transformer' or args.network == '2tcnlstm':
-        from configs.configs import config
+        from configs.configs_test import config
         args.config = config
     elif args.network == 'CrossModalTr':
-        from configs.configs_cmtr_v4 import config
+        from configs.configs_train import config
         args.config = config
     tta = TTA(args)
     tta.run()
