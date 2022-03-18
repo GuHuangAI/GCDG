@@ -3,7 +3,7 @@
 ## Table of contents
 * [Abstract](#Abstract)
 * [Network](#Network)
-* [Data Preparation](#Data Preparation)
+* [Data Preparation](#Data_Preparation)
 * [Run](#Run)
 * [Q&&A](#Q&&A)
 * [Thanks](#Thanks)
@@ -17,7 +17,7 @@ Dancing to music is an artistic behavior of humans, however, letting machines ge
 <img src="https://github.com/GuHuangAI/GCDG/releases/download/v1/framework.png" width="80%"/>
 </div>
 
-## Data Preparation
+## Data_Preparation
 Download AIST++ from [url](https://google.github.io/aistplusplus_dataset/download.html). Run `./utils/extrac_audio.py` to split the original audio to 240 seconds sequences, and run `./utils/ext_audio_features_raw.py` to save the cache features.
 The final data path follows as:
 <pre><code>
