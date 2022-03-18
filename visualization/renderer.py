@@ -15,7 +15,7 @@ import numpy as np
 import pyrender
 from pyrender.camera import PerspectiveCamera
 from pyrender.constants import RenderFlags
-from OpenGL import platform, _configflags
+# from OpenGL import platform, _configflags
 from vedo import *
 
 root_dir = os.path.join(os.path.dirname(__file__),'..')
