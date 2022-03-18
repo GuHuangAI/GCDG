@@ -47,4 +47,4 @@ sh run_test2.sh
 If u have any questions, please concat with huangyuhang@shu.edu.cn.
 
 ## Thanks
-Thanks to Shuyan Liu for providing the base code and Yu Sun for smpl visualization.
+Thanks to Shuyan Liu for providing the base code and [Yu Sun](https://github.com/Arthur151/ROMP) for smpl visualization.
