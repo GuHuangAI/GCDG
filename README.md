@@ -45,6 +45,12 @@ For testing:
 sh run_test2.sh
 </code></pre>
 
+Results:
+<!-- [IMAGE] -->
+<div align=center>
+<img src="https://github.com/GuHuangAI/GCDG/releases/download/v1/result.png" width="80%"/>
+</div>
+
 ## Q&A
 If u have any questions, please concat with huangyuhang@shu.edu.cn.
 
