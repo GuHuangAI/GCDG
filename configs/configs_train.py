@@ -19,7 +19,7 @@ config.val_batch_size = 120
 config.test_batch_size = 1
 
 config.leaning_rate = 0.0001
-config.epochs = 1500
+config.epochs = 1600
 config.repeat_time_per_epoch = 1
 
 config.rotation_weight = 5.
