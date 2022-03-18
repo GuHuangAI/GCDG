@@ -3,6 +3,10 @@
 ## Table of contents
 * [Abstract](#Abstract)
 * [Network](#Network)
+* [Data Preparation](#Data Preparation)
+* [Run](#Run)
+* [Q&&A](#Q&&A)
+* [Thanks](#Thanks)
 
 ## Abstract
 Dancing to music is an artistic behavior of humans, however, letting machines generate dances from music is still challenging. Most existing works have been made progress in tackling the problem of motion prediction conditioned by music, yet they rarely consider the importance of the musical genre. In this paper, we focus on generating long-term 3D dance from music with a specific genre. Specifically, we construct a pure transformer-based architecture to correlate motion features and music features. To utilize the genre information, we propose to embed the genre categories into the transformer decoder so that it can guide every frame. Moreover, different from previous inference schemes, we introduce the motion queries to output the dance sequence in parallel that significantly improves the efficiency.
@@ -41,3 +45,6 @@ sh run_test2.sh
 
 ## Q&A
 If u have any questions, please concat with huangyuhang@shu.edu.cn.
+
+## Thanks
+Thanks to Shuyan Liu for providing the base code and Yu Sun for smpl visualization.
