@@ -5,7 +5,7 @@ pytorch-lightning==0.6.0
 test-tube==0.7.5
 tqdm
 numba==0.48.0
-librosa=0.6.0
+librosa==0.6.0
 matplotlib
 opencv-python
 trimesh
