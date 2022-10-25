@@ -36,12 +36,12 @@ The final data path follows as:
 ## Run
 For testing, u should download the [wav.zip](https://aistdancedb.ongaaccel.jp/v1.0.0/audio/wav.zip), and use `./utils/ext_audio_features_raw.py` to extract the cache features. Then, input correct path dirs in `./config/configs_train.py` and `./configs/configs_test.py`.
 
-Notice that the **model v12** is used in the paper, and we present a new **model v13** now in which the motion query is obtained by using a linear layer to project the initial motion. You can change the model version in `run_cmtr.sh` and `run_test2.sh`.
+Notice that the **model v12** is used in the paper, and we present a new **model v13** now in which the motion query is obtained by using a linear layer to project the initial motion. You can change the model version in `run_cmtr.sh` and `run_test2.sh`. For testing, please download the model weights for **model v12**: https://pan.baidu.com/s/1fGA9INeAQA0FAMbmLxMQdg?pwd=2050
 <pre><code>
 For training:
 sh run_cmtr.sh
 
-For testing, please download the model weights for **model v12**: https://pan.baidu.com/s/1fGA9INeAQA0FAMbmLxMQdg?pwd=2050
+For testing:
 sh run_test2.sh
 </code></pre>
 
