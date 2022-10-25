@@ -41,7 +41,7 @@ Notice that the **model v12** is used in the paper, and we present a new **model
 For training:
 sh run_cmtr.sh
 
-For testing:
+For testing, please download the model weights for **model v12**: https://pan.baidu.com/s/1fGA9INeAQA0FAMbmLxMQdg?pwd=2050
 sh run_test2.sh
 </code></pre>
 
