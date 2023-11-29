@@ -52,7 +52,7 @@ Results:
 </div>
 
 ## Q&A
-If u have any questions, please concat with huangyuhang@shu.edu.cn.
+If u have any questions, please concat with huangai@nudt.edu.cn.
 
 ## Thanks
 Thanks to [Shuyan Liu](https://github.com/sy1019) for providing the base code and [Yu Sun](https://github.com/Arthur151) for smpl visualization.
